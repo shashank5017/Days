@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Addmission form</title>
+</head>
+<body>
+    <form action="./thanku.html">
+    <h1>College Admission Application</h1>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <p>
+            <label for="name">Full Name:</label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="Enter your Full Name">
+        </p>
+        <p>
+            <label for="Dob">Date of Birth:</label>
+            <br>
+            <input type="date" name="Dob" id="Dob">
+        </p>
+        <p>
+            <label for="Gender">Gender:</label>
+        <br>
+            <input type="radio" name="male" id="male">
+            <label for="male">Male</label>
+<br>
+            <input type="radio" name="female" id="female">
+            <label for="female">Female</label>
+<br>
+            <input type="radio" name="others" id="others">
+            <label for="others">Others</label>
+        </p>
+        <p>
+            <label for="email">Email:
+            </label>
+<br>
+            <input type="email" name="email" id="email" placeholder="example@gmail.com">
+        </p>
+        <p>
+            <label for="phno">Phone Number:</label>
+<br>
+            <input type="number" name="phone number" id="phno" placeholder="9999999999">
+        </p>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Academic Details</legend>
+
+        <label for="">Examination Passed:</label>
+<br>    
+        <input type="checkbox" name="10th" id="10th">
+        <label for="10th">10th</label>
+<br>    
+        <input type="checkbox" name="12th" id="12th">
+        <label for="12th">12th</label>
+<br> 
+        <input type="checkbox" name="Diploma" id="Diploma">
+        <label for="Diploma">Diploma</label>
+<br>   
+        <p>
+        <label for="marks">12th Grade Marks(%): </label>
+<br>
+        <input type="number" name="marks" id="marks">
+
+    </p>
+    </fieldset>
+    <fieldset>
+        <legend>Cource Selection</legend>
+        <label for="clg">Preferred Stream: </label>
+<br>
+        <p>
+        <select name="stream" id="clg">
+            <option value="science">Science</option>
+            <option value="commerce">Commerce</option>
+            <option value="arts">Arts</option>
+        </select>
+        </p>
+<br>
+        <p>
+        <label for="pcollege">Preferred College</label>
+
+<br>
+        <select name="pcollege" id="pcollege">
+            <option value="ABC college">GIT belgaum</option>
+            <option value="kit">KIT CBE</option>
+            <option value="iit">IIT Madras</option>
+            <option value="iitd">IIT Delhi</option>
+            <option value="oth">Other college</option>
+        </select>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Other Details</legend>
+        <p>
+            <label for="why">Why do you want to join?.</label>
+            <br>
+            <textarea name="why" id="why" rows="3" cols="30" placeholder="Write in 500 words"></textarea>
+        </p>
+        <p>
+            <label for="speed">Your Internet Speed (For online Learning)</label>
+<br>
+            <input type="range" name="speed" id="speed" min="1" max="10">
+        </p>
+        <p>
+            <input type="checkbox" name="upload" id="up">
+            <label for="up">I have uploaded all required Documents</label>
+<br>
+            <input type="checkbox" name="condition" id="con">
+            <label for="con">I Agree to all the terms and conditions</label>
+
+        </p>
+        
+    </fieldset>
+    <p>
+        <button>Submit Application</button>
+        <button>Reset</button>
+    </p>
+    </form>
+</body>
+</html>

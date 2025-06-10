@@ -1,0 +1,6 @@
+FONT: https://colorhunt.co/
+COLOR: https://fonts.google.com/
+RGB MIXER : https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/
+FONT AWESOME : https://fontawesome.com/
+CDNJS : https://cdnjs.com/
+
