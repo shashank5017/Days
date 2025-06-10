@@ -1,0 +1,80 @@
+#body1{
+    /* margin: 0%; */
+    color: #EEEEEE;
+    padding: 0%;
+    background-color: #222831;
+    font-family: "Oswald", sans-serif;
+}
+#fd{
+    border-radius: 15px;
+    background-color: #393E46;
+    
+}
+#h1{
+    /* display: block; */
+    text-align: center;
+    border-radius: 15px;
+    background-color: #00ADB5;
+    margin: auto;
+    
+}
+
+#img{
+    text-align: center;
+}
+
+#linkdin{
+    color: #EEEEEE;
+}
+#sum{
+    background-color: #00ADB5;
+    border-radius: 15px;
+    margin-right: 70%;
+    padding: 0px 0px 0px 25px;
+}
+#Education{
+     background-color: #00ADB5;
+    border-radius: 15px;
+    margin-right: 68%;
+    padding: 0px 0px 0px 25px;
+}
+#skill{
+    background-color: #00ADB5;
+    border-radius: 15px;
+    margin-right: 77%;
+    padding: 0px 0px 0px 25px;
+}
+#lang{
+    background-color: #00ADB5;
+    border-radius: 15px;
+    margin-right: 69%;
+    padding: 0px 0px 0px 25px;
+}
+#certi{
+    background-color: #00ADB5;
+    border-radius: 15px;
+    margin-right: 65%;
+    padding: 0px 0px 0px 25px;
+}
+#Ach{
+    background-color: #00ADB5;
+    border-radius: 15px;
+    margin-right: 64%;
+    padding: 0px 0px 0px 25px;
+}
+#Hobbies{
+    background-color: #00ADB5;
+    border-radius: 15px;
+    margin-right: 72%;
+    padding: 0px 0px 0px 25px;
+}
+#con{
+    background-color: #00ADB5;
+    border-radius: 15px;
+    margin-right: 73%;
+    padding: 0px 0px 0px 25px;
+    
+}
+img{
+    border-radius: 15px;
+}

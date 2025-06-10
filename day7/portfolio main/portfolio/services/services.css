@@ -1,0 +1,20 @@
+#body1{
+    background-color: #222831;
+    font-family: "Oswald", sans-serif;
+    color: #EEEEEE;
+}
+
+#sec1{
+    background-color: #00ADB5;
+    text-align: center;
+    border-radius: 15px;
+}
+
+fieldset{
+    border-radius: 15px;
+    color: #EEEEEE;
+}
+
+legend{
+    color: #00ADB5;
+}

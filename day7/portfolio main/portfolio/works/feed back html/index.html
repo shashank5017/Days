@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+<form action="./thanku.html">
+    <h1>Website Feedback Form</h1>
+<p>
+    <label for="name">Full Name:</label><br>
+    <input type="text" name="name" id="name" placeholder="Enter your full Name">
+</p>
+<p>
+    <label for="email">Email:</label><br>
+    <input type="email" name="email" id="email" placeholder="example@gmail.com">
+
+</p>
+<p>
+    Gender:
+<br>
+    <input type="radio" name="" id="male">
+    <label for="male">Male</label>
+<br>
+    <input type="radio" name="female" id="female">
+    <label for="female">Female</label>
+</p>
+
+<p>
+    Intrest:
+<br>
+    <input type="checkbox" name="coding" id="coding">
+    <label for="coding">Coding</label>
+<br>
+    <input type="checkbox" name="Design" id="design">
+    <label for="design">Design</label>
+<br>
+    <input type="checkbox" name="writing" id="writing">
+    <label for="writing">Writing</label>
+</p>
+
+<p>
+    <label for="exp">Your Experience Level:</label>
+<br>
+    <select name="Experience" id="exp">
+        <option value="Beginner">Beginner</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Advance">Advance</option>
+    </select>
+</p>
+<p>
+    <label for="sat">Satisfraction(1 to 10):</label>
+<br>
+    <input type="range" name="Satisfraction" id="sat" min="1" max="10" step="1" >
+</p>
+
+<p>
+    <label for="comment">Additional Comment:</label>
+<br>
+    <textarea name="comment" id="comment" rows="3" cols="30" placeholder="Write your Comment Here "></textarea>
+
+</p>
+<p>
+    <button>Submit Feedback</button>
+    <button>Reset</button>
+</p>
+</form>
+</body>
+</html>
+
